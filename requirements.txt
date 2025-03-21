@@ -1,0 +1,28 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn==0.29.0
+
+# Email Handling
+imapclient==2.3.1
+email==6.0.0
+beautifulsoup4==4.12.3
+
+# Elasticsearch
+elasticsearch==8.13.0
+
+# AI & Vector Database
+scikit-learn==1.4.2
+transformers==4.38.2
+faiss-cpu==1.7.4  # Use 'faiss-gpu' for GPU support
+chromadb==0.4.24
+pinecone-client==3.0.0
+
+# Webhook & Slack
+requests==2.31.0
+slack-sdk==3.26.1
+
+# JSON Processing
+pydantic==2.7.0
+
+# Docker (for Elasticsearch & FastAPI)
+docker==7.0.0
